@@ -1,0 +1,40 @@
+#timerContainer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  width:700px;
+  margin:50px auto;
+  min-height: 60px;
+  border-top:0px;
+  position: absolute;
+  bottom: 120px;
+  right: 52%;
+}
+.timer, .reset {
+  width: 54%;
+  padding: 20px 0;
+  font-size: 24px;
+  text-align:center;
+  color: #fff;
+  background: #0c0c0c;
+  cursor: pointer;
+  border-radius: 20px;
+  margin:5px auto;
+}
+.reset {
+  background: #6b6a6a;
+  color: white;
+  width:14.9%;
+  border-left: 1px solid #838181;
+}
+.reset:hover {
+  background: #4d4b4b;
+}
+.lighter {
+  background: #7a7777
+}
+
+.imgs{
+  opacity: 0.7;
+  width: 600px;
+  height: 600px;
+}
